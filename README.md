@@ -22,18 +22,18 @@ The Bluetooth Access Control is a comprehensive solution designed to simplify an
 To install and deploy the Employee Entry and Exit Management Application, follow these steps:
 
 Clone the repository from GitHub:
->git clone https://github.com/your-username/employee-entry-exit-app.git
+>`git clone https://github.com/your-username/employee-entry-exit-app.git`
 
 Install the required dependencies by running the following command:
->npm install
+>`npm install`
 
 Set up the application configuration file (config.js) with the necessary parameters, such as database connection details, access control system integration settings, and notification preferences.
 
 Build and compile the application using the following command:
->npm run build
+>`npm run build`
 
 Start the application server:
->npm start
+>`npm start`
 
 Access the application by navigating to http://localhost:3000 in your web browser.
 
