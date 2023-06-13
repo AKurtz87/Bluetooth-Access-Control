@@ -22,7 +22,7 @@ The Bluetooth Access Control is a comprehensive solution designed to simplify an
 To install and deploy the Employee Entry and Exit Management Application, follow these steps:
 
 Clone the repository from GitHub:
->`git clone https://github.com/your-username/employee-entry-exit-app.git`
+>`git clone https://github.com/AKurtz87/Bluetooth-Access-Control.git`
 
 Install the required dependencies by running the following command:
 >`npm install`
