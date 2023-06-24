@@ -1,57 +1,48 @@
-# Bluetooth Access Control
-The Bluetooth Access Control is a comprehensive solution designed to simplify and streamline the process of recording and controlling the entries and exits of employees to and from the company compound. This application aims to enhance security, improve efficiency, and provide a convenient way for both workers and directors to manage employee movements.
+# Bluetooth Data Scanner & Analyzer
+
+Bluetooth Data Scanner & Analyzer is a cutting-edge solution designed to detect, log, and perform operations on Bluetooth devices within range. This application has been designed to enhance the realm of big data, contributing to an ever-expanding ecosystem of IoT and connected devices.
 
 ## Features
 
-+ **User-friendly Interface:** The application provides an intuitive and easy-to-use interface for employees, directors, and administrators.
++ **Device Scanning:** The application is capable of scanning all Bluetooth devices in the area.
 
-+ **Employee Registration:** New employees can register their details, including their name, contact information, and employee ID, into the system.
++ **Data Collection & Storage:** The application saves all the scanned data in a single-line JSON file, which is suitable for big data operations.
 
-+ **Access Control:** The application integrates with the company's access control system, allowing employees to use their employee ID or biometric data to gain entry to the compound.
++ **Data Import to SQLite Database:** You can run the `02.2_fromJsonToDB` script to import this single-line JSON data into a SQLite database.
 
-+ **Real-time Monitoring:** The system provides real-time monitoring of employee movements, displaying information such as entry and exit timestamps, location, and duration of stay.
-
-+ **Notifications:** The system can send notifications to relevant parties, such as directors or managers, when specific events occur, such as an employee's late entry or early exit.
-
-+ **Reporting and Analytics:** The application generates comprehensive reports and analytics, allowing directors and administrators to analyze employee attendance, identify patterns, and make informed decisions.
-
-+ **Data Privacy and Security:** The application adheres to strict data privacy and security protocols, ensuring that sensitive employee information is protected.
++ **HTTP Server and Data Visualization:** By launching the `01_main.js` script, you can start an HTTP server and visualize and perform operations on the collected Bluetooth data.
 
 ## Installation
 
-To install and deploy the Employee Entry and Exit Management Application, follow these steps:
+To install and get the Bluetooth Data Scanner & Analyzer up and running, follow these steps:
 
-Clone the repository from GitHub:
->`git clone https://github.com/AKurtz87/Bluetooth-Access-Control.git`
+1. Clone the repository from GitHub:
+    >`git clone https://github.com/YourGithubUsername/Bluetooth-Data-Scanner-Analyzer.git`
 
-Install the required dependencies by running the following command:
->`npm install`
+2. Navigate to the project's directory and install the required dependencies by running:
+    >`npm install`
 
-Set up the application configuration file (config.js) with the necessary parameters, such as database connection details, access control system integration settings, and notification preferences.
+3. Run the following script to import the single-line JSON data into your SQLite database:
+    >`node 02.2_fromJsonToDB.js`
 
-Build and compile the application using the following command:
->`npm run build`
+4. To start the application server, use:
+    >`node 01_main.js`
 
-Start the application server:
->`npm start`
-
-Access the application by navigating to http://localhost:3000 in your web browser.
+You can then access the application by navigating to http://localhost:3000 (or whichever port you've set) in your web browser.
 
 ## Usage
 
 Once the application is installed and running, the following steps outline the typical workflow:
 
-1. Employees register their details through the registration page, providing the required information and obtaining an employee ID.
+1. The application begins scanning for all Bluetooth devices in the area and collects data.
 
-2. Employees use their employee ID or biometric data to gain access to the company compound. The application records the entry timestamp and logs their entry into the system.
+2. All the collected data gets stored in a single-line JSON file, optimized for big data operations.
 
-3. Similarly, when employees exit the compound, the application records the exit timestamp and updates the employee's record.
+3. You can then run the `02.2_fromJsonToDB` script to import the data from the JSON file into a SQLite database.
 
-4. Directors and administrators can monitor employee movements in real-time through the application's dashboard. They can also generate reports and perform analytics to gain insights into employee attendance patterns.
-
-5. The application can send notifications to relevant parties, such as directors or managers, based on predefined events or triggers, such as late entry or early exit.
+4. With the HTTP server running (triggered by `01_main.js`), you can visualize and perform operations on the collected Bluetooth data through the web interface.
 
 ## Contributing
 
-Contributions to the Employee Entry and Exit Management Application are welcome! If you encounter any issues or have ideas for enhancements, please submit them as GitHub issues in the repository. Additionally, you can fork the repository, make your changes, and submit a pull request for review.
-Please ensure that your contributions align with the project's coding conventions and follow the established guidelines.
+We welcome contributions to the Bluetooth Data Scanner & Analyzer! If you encounter any issues or have suggestions for improvements, please submit them as GitHub issues in the repository. You may also fork the repository, make your changes, and submit a pull request for review. Please ensure that your contributions align with the project's coding conventions and follow the established guidelines.
+
