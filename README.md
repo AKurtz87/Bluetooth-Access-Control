@@ -17,7 +17,7 @@ Bluetooth Data Scanner & Analyzer is a solution designed to detect, log, and per
 To install and get the Bluetooth Data Scanner & Analyzer up and running, follow these steps:
 
 1. Clone the repository from GitHub:
-    >`git clone https://github.com/YourGithubUsername/Bluetooth-Data-Scanner-Analyzer.git`
+    >`https://github.com/AKurtz87/Bluetooth-Data-Scanner-Analyzer.git`
 
 2. Navigate to the project's directory and install the required dependencies by running:
     >`npm install`
