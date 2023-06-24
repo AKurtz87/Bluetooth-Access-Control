@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: rgb(56, 51, 51);
+        font-size: 15px;
+        text-align: center;
+      }
+      table {
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgb(53, 238, 53);
+        color: rgb(53, 238, 53);
+        width: 80%;
+        margin: auto;
+      }
+      table th,
+      table td {
+        padding: 5px;
+        text-align: left;
+      }
+      table th {
+        color: rgb(53, 238, 53);
+        text-align: left;
+        font-size: 20px;
+      }
+
+      button {
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgb(53, 238, 53);
+      }
+
+      .buttonPOST {
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgb(53, 238, 53);
+      }
+
+      button:hover {
+        background-color: rgb(53, 238, 53);
+        color: rgb(53, 53, 53);
+      }
+
+      .buttonPOST:hover {
+        background-color: rgb(53, 238, 53);
+        color: rgb(53, 53, 53);
+      }
+
+      .delete {
+        box-shadow: 0px 0px 10px rgb(236, 75, 75);
+      }
+
+      .delete:hover {
+        background-color: rgb(236, 75, 75);
+        color: rgb(53, 53, 53);
+      }
+
+      #workerForm {
+        color: rgb(53, 238, 53);
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 45px;
+      }
+
+      h1 {
+        color: rgb(53, 238, 53);
+        font-size: 30px;
+      }
+
+      #uuid,
+      #worker {
+        margin-bottom: 15px;
+      }
+
+      #filterByWorker,
+      #showAllData {
+        margin-bottom: 20px;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="titlePOST"></h2>
+
+    <button id="filterByWorker">Filter by Worker</button>
+    <button id="showAllData">Show All Data</button>
+
+    <h1>Add New Element</h1>
+
+    <form id="workerForm">
+      <label for="worker">WORKER:</label><br />
+      <input type="text" id="worker" name="worker" value="" /><br />
+      <label for="uuid">UUID:</label><br />
+      <input type="text" id="uuid" name="uuid" value="" /><br /><br />
+      <input type="submit" value="Add Worker" class="buttonPOST" />
+    </form>
+
+    <h2 class="titlePOST"></h2>
+
+    <table id="workerTable">
+      <tr>
+        <th>Worker</th>
+        <th>UUID</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </table>
+    <script src="jscript/index/index1.js"></script>
+    <script src="jscript/index/index2.js"></script>
+    <script src="jscript/index/index3.js"></script>
+  </body>
+</html>
