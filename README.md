@@ -49,15 +49,15 @@ Once the application is installed and running, the following steps outline the t
 
 + **Owner Association:** On the main page, you can associate the UUID of a Bluetooth device with its owner (which could be a person, piece of equipment, or any other entity with a Bluetooth device).
 
-<img width="1201" alt="Screenshot 2023-06-24 at 13 28 20" src="https://github.com/AKurtz87/Bluetooth-Data-Scanner-Analyzer/assets/91114967/a3169a62-ca50-4632-83e3-6c6e679b3ef6">
+
 
 + **Owner-Specific Data Page:** A separate page allows you to view only the data associated with a specific owner.
 
-<img width="1199" alt="Screenshot 2023-06-24 at 13 29 53" src="https://github.com/AKurtz87/Bluetooth-Data-Scanner-Analyzer/assets/91114967/98e719ae-0f55-439e-b59f-1a24e2f95f00">
+
 
 + **Comprehensive Data List Page:** Another page lists all the collected data in a single, accessible format.
 
-<img width="1198" alt="Screenshot 2023-06-24 at 13 30 41" src="https://github.com/AKurtz87/Bluetooth-Data-Scanner-Analyzer/assets/91114967/cb0811a8-720c-4c54-93fd-6a724018fa27">
+
 
 ## Contributing
 
