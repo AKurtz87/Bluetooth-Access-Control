@@ -4,13 +4,15 @@ Bluetooth Data Scanner & Analyzer is a solution designed to detect, log, and per
 
 ## Features
 
++ **Bluetooth Scanning:** The application can scan all Bluetooth devices in the area using the 02.1_scan script.
+
 + **Device Scanning:** The application is capable of scanning all Bluetooth devices in the area.
 
 + **Data Collection & Storage:** The application saves all the scanned data in a single-line JSON file, which is suitable for big data operations.
 
 + **Data Import to SQLite Database:** You can run the `02.2_fromJsonToDB` script to import this single-line JSON data into a SQLite database.
 
-+ **HTTP Server and Data Visualization:** By launching the `01_main.js` script, you can start an HTTP server and visualize and perform operations on the collected Bluetooth data.
++ **HTTP Server and Data Visualization:** By launching the `01_main.js` script, you can start an HTTP server and visualize and perform operations on the collected 
 
 ## Installation
 
