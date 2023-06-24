@@ -1,6 +1,6 @@
 # Bluetooth Data Scanner & Analyzer
 
-Bluetooth Data Scanner & Analyzer is a cutting-edge solution designed to detect, log, and perform operations on Bluetooth devices within range. This application has been designed to enhance the realm of big data, contributing to an ever-expanding ecosystem of IoT and connected devices.
+Bluetooth Data Scanner & Analyzer is a solution designed to detect, log, and perform operations on Bluetooth devices data collected.
 
 ## Features
 
